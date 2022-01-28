@@ -18,6 +18,7 @@ for (i=0; i < pacientes.length; i++) {
         console.log("Peso inválido!");
         tdImc.textContent = "Peso inválido!"
         pesoValido = false;
+        paciente.classList.add("paciente-invalido");
     }
 
     var alturaValida = true;
@@ -29,6 +30,7 @@ for (i=0; i < pacientes.length; i++) {
         console.log("Altura inválida!");
         tdImc.textContent = "Altura inválida!"
         alturaValida = false;
+        paciente.classList.add("paciente-invalido");
     }
 
     if (pesoValido && alturaValida) {
@@ -37,6 +39,13 @@ for (i=0; i < pacientes.length; i++) {
     } else {
         tdImc.textContent = "Altura e/ou peso inválidos!"
     }
-
 }
 
+titulo.addEventListener("click", function () {
+    console.log("Olha, posso chamar uma função anônima!");
+});
+
+var botao = document.querySelector("#adicionar-paciente");
+botao.addEventListener("click", function () {
+    console.log("Oi, cliquei no botão!");
+});
