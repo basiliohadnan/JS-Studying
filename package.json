@@ -1,0 +1,22 @@
+{
+  "name": "js-studying",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/basiliohadnan/JS-Studying.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/basiliohadnan/JS-Studying/issues"
+  },
+  "homepage": "https://github.com/basiliohadnan/JS-Studying#readme",
+  "dependencies": {
+    "live-server": "^1.2.1"
+  }
+}
